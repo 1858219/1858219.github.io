@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+        <link rel="stylesheet" href="./css/home.css">
+        <meta charset="UTF-8" />
+        <meta name="auther" content="Kento U" />
+        <meta name="keywords" content="guiter, Band, bass, drum" />
+        <title>バンドの楽器紹介</title>
+    </head>
+
+    <body>
+        
+        
+        <header>
+            <h1 id="pagetop">バンドパート紹介ページ</h1>
+            <nav>
+                <p id="links">各ページへのリンクを表示(Click)</p>
+                <div class="Menu">
+                    
+                    <ul>
+                        <li><a href="./otherpages/vocal.html">ボーカル</a></li>                       
+                        <li><a href="./otherpages/guiter.html">ギター</a></li>
+                        <li><a href="./otherpages/bass.html">ベース</a></li>
+                        <li><a href="./otherpages/drum.html">ドラム</a></li>
+                        <li><a href="./otherpages/keyboard.html">キーボード</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <div id="all">
+
+
+            <div id="link">
+                <h2>「バンドでの役割にはどんなものがあるか？」</h2>
+                <div>
+                    <dl class="intro">
+                        <p>このサイトでは、</p>
+                        <p>音楽グループの一種を指す”バンド”の</p>
+                        <p>一般的な編成におけるパート（役割）を紹介していきます！</p>
+                        <p>画像をクリックで各楽器の紹介ページへ移動できます。</p>
+                        
+                         <ul>
+                            <li> <a href="./otherpages/vocal.html"><img src="./img/j-cole-2033551_1920.jpg" alt="vocal">ボーカル</a></li>
+                            <li><a href="./otherpages/guiter.html"><img src="./img/guitar-2925274_1920.jpg" alt="guiter">ギター</a></li>
+                            <li><a href="./otherpages/bass.html"><img src="./img/bass-guitar-1841186_1920.jpg" alt="bass">ベース</a></li>
+                            <li><a href="./otherpages/drum.html"><img src="./img/drums-2708199_1920.jpg" alt="drum">ドラム</a></li>
+                            <li><a href="./otherpages/keyboard.html"><img src="./img/piano-3505109_1920.jpg" alt="key">キーボード</a></li>
+                        </ul>
+                        
+                       
+                    </dl>
+                    
+                </div>
+                
+            </div>
+
+            <div class="endContents"">
+                <h3>作成者的各パートの特徴早見表<span>パート適性診断</span></h3>
+                <div id="table">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Vo</th>
+                            <th>Gt</th>
+                            <th>Ba</th>
+                            <th>Dr</th>
+                            <th>Key</th>
+                        </tr>
+                        <tr>
+                            <th>とにかく目立つ！</th>
+                            <td>〇</td>
+                            <td>〇</td>
+                            <td>×</td>
+                            <td>△</td>
+                            <td>△</td>
+                        </tr> <tr>
+                            <th>影の立役者！</th>
+                            <td>×</td>
+                            <td>△</td>
+                            <td>〇</td>
+                            <td>〇</td>
+                            <td>〇</td>
+                        </tr> <tr>
+                            <th>綺麗な音</th>
+                            <td>△</td>
+                            <td>△</td>
+                            <td>△</td>
+                            <td>×</td>
+                            <td>〇</td>
+                        </tr> <tr>
+                            <th>激しい音</th>
+                            <td>△</td>
+                            <td>〇</td>
+                            <td>△</td>
+                            <td>〇</td>
+                            <td>△</td>
+                        </tr>
+                        
+                    </table>
+                    
+                    
+                    <p id="koumoku">歌いたい<br>目立つのが嫌いではない<br>リズムを刻みたい<br>激しい音が好きだ</p>
+                        
+                    
+                    <div id="sayYes">
+                        <label><input type="checkbox" name="sayYes1" id="sayYes1">Yes.</label><br>
+                        <label><input type="checkbox" name="sayYes2" id="sayYes2">Yes.</label><br>
+                        <label><input type="checkbox" name="sayYes3" id="sayYes3">Yes.</label><br>
+                        <label><input type="checkbox" name="sayYes4" id="sayYes4">Yes.</label><br>
+                    </div>
+                    <div id="button">
+                        <input type="button" value="結果はこちら" id="checkButton">
+                        <p id="result"></p>
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+            
+            
+        <footer>
+            <p></p>
+            <a href="#pagetop">ページトップへ</a><br>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="./js/home.js"></script>
+        <script src="./js/kensa.js"></script>
+    </body>
+
+
+
+</html>
